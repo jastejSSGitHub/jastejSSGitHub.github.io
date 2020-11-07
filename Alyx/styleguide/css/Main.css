@@ -1,0 +1,268 @@
+/* Used the https://www.tutorialspoint.com/html5/html5_fonts.htm to recap how font-family work */
+/* Used the March 13 tutorial materials from class */
+html {
+  font-family: 'Cinzel', serif;
+  font-family: 'Sorts Mill Goudy', serif;
+    -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+
+}
+
+/* Used the tutorial materials from class */
+body{
+  background-color:white; /*a light blueish color*/
+  padding: 0;
+  margin: 0;
+}
+/* Used the tutorial materials from class to recap how margin-bottem and font-size work */
+/*title*/
+
+h1{
+  font-size: 2.5rem;
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  font-style: normal;
+  padding:0;
+  color:#44352a
+
+}
+/*subtitle*/
+h2{
+  font-size:2rem;
+  padding-bottom:0.5rem;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  color:#44352a
+
+
+
+}
+/*sub-subtitle*/
+h3{
+  font-size:1.75rem;
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  color:#44352a
+
+
+}
+
+h4{
+  font-size:1.2rem;
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  color:#44352a
+
+}
+
+.preview{
+  text-align: left;
+  background: none;
+  padding: 0.5rem;
+}
+
+code{
+  background-color:#d0d0d0;
+  padding: 0.5rem;
+  display: block;
+  font-family:monospace;
+}
+
+.typo1{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size:1.5rem;
+}
+
+.typo2{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size:1.5rem;
+}
+
+
+p, ul {
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+ol{
+text-align: center;
+}
+
+
+/* Used the March13 tutorial materials from class to recap how article work */
+/*set article attributes*/
+article {
+  text-align: left;
+  padding: 0rem 6rem 1rem 4rem;
+  font-family: 'Sorts Mill Goudy', serif;
+
+}
+/* Used the tutorial materials from class to recap how text link work */
+.text-links{
+  color:rgb(0,0,128);
+}
+/* change the font color for class image-and-text-link */
+.image-and-text-link{
+  color:rgb(238,121,66);
+}
+
+/* Used https://www.w3schools.com/css/css_image_transparency.asp to recap how opacity work */
+
+.image-link:hover,.image-link:focus{
+  opacity: 0.5;
+}
+
+
+img {
+  max-width:100%;
+  min-width: 30%;
+}
+
+.image-box li{
+  text-align: center;
+}
+
+/* Used the March 13 tutorial materials from class to recap how figcaption work */
+figcaption {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: grey;
+  position: relative;
+}
+
+/*paragrah font*/
+p{
+}
+
+/*set background color*/
+*{
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.field_label label{
+  display: inline;
+}
+
+.btn {
+  display: block;
+  position: relative;
+  padding: 0.625rem 1rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #a0aab3;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: inherit;
+  width: 8rem;
+  text-decoration: none;
+}
+.btn:hover, .btn:active, .btn:focus {
+  background-color: #bc8976;
+  text-decoration: none;
+  color: inherit;
+}
+.btn:active {
+  top: 2px;
+  background-color: #CCC;
+}
+.btn:focus {
+  outline: 0;
+}
+
+.nav-button{
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  text-align: left;
+  background: none;
+}
+
+img:hover{
+  background-color: #bc8976;
+
+}
+
+a.nav-button:hover, a.nav-button:focus, a.nav-button:active{
+  color: white;
+  background-color: #d0d0d0;
+}
+
+a.nav-button:visited{
+  color: black;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+	background-color: white;
+	color: white;
+}
+
+.text-links:hover, .text-links:active, .text-links:focus{
+  color:#ff0000;
+}
+input#textfield{
+  background: white;
+
+}
+
+input#textfield:hover{
+  background-color: #d0d0d0;
+
+}
+
+input#radio:hover{
+  cursor:grab;
+}
+
+input:hover{
+  background-color: #d0d0d0;
+}
+
+label.field_label{
+}
+
+label.radio_label{
+  display: inline;
+}
+
+label{
+  text-align: left;
+  display: block;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1.1rem;
+}
+
+label.right{
+  text-align: right;
+  display: block;
+}
+
+.form input{
+  display:inline-block;
+  text-align: left;
+}
+
+header{
+    float: right;
+    padding-left:2rem;
+    width: 13rem;
+}
+
+#company_name{
+  font-size:1.5rem;
+  padding-left:2rem;
+}
+
+#citation h2, p{
+}
+
+.color_palette h1{
+  margin: 0;
+  font-size:1.5rem;
+}
